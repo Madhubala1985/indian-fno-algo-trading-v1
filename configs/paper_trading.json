@@ -1,0 +1,32 @@
+{
+  "symbol": "BANKNIFTY",
+  "timeframe": "MIN_1",
+
+  "starting_equity": 1000000.0,
+  "lot_size": 35,
+  "contract_multiplier": 1.0,
+  "max_lot_count": 10,
+  "risk_fraction_per_trade": 0.005,
+
+  "stop_atr_multiple": 1.5,
+  "target_r_multiple": 2.0,
+  "trailing_atr_multiple": 0.0,
+  "max_bars_in_trade": 120,
+  "squareoff_time": "15:20",
+
+  "atr_window": 14,
+  "slow_atr_window": 100,
+  "warmup_bars": 20,
+
+  "liquidity_score": 0.90,
+  "spread_bps": 2.0,
+  "slippage_bps_estimate": 3.0,
+  "max_allowed_drawdown_fraction": 0.12,
+  "margin_fraction_of_notional": 0.12,
+
+  "market_open": "09:15",
+  "market_close": "15:30",
+
+  "trade_log_path": "logs/paper_trades.csv",
+  "session_log_path": "logs/paper_sessions"
+}
